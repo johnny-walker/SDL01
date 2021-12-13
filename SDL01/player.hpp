@@ -7,7 +7,6 @@
 #define player_hpp
 
 #include <stdio.h>
-#include <cmath>
 #include "mainwin.hpp"
 
 class Player{
