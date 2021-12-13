@@ -10,10 +10,12 @@ MazeMap::MazeMap(){
 
 // destructor
 MazeMap::~MazeMap(){
-    
+    matrix.clear();
 }
 
 void MazeMap::loadMap(char path[]){
+    matrix.clear();
+    
     //readfile
     fstream file;
     file.open(path);
