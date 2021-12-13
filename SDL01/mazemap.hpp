@@ -26,4 +26,4 @@ public:
     void loadMap(char path[]);  // csv file
     void dumpMap();
 };
-#endif /* loadmap_hpp */
+#endif /* mazemap_hpp */
