@@ -188,20 +188,20 @@ void MainWin::onRender(){
 }
 
 void MainWin::onKeyDown() {
-    printf("override onKeyDown() to define the behavior\n");
+    printf("Undefined, need to override onKeyDown()\n");
 }
 void MainWin::onKeyUp(){
-    printf("override onKeyUp() to define the behavior\n");
+    printf("Undefined, need to override onKeyUp()\n");
 }
 void MainWin::onKeyLeft(){
-    printf("override onKeyLeft() to define the behavior\n");
+    printf("Undefined, need to override onKeyLeft()\n");
 }
 void MainWin::onKeyRight(){
-    printf("override onKeyRight() to define the behavior\n");
+    printf("Undefined, need to override onKeyRight()\n");
 }
 void MainWin::onKeySpace(){
-    printf("override onKeySpace() to define the behavior\n");
+    printf("Undefined, need to override onKeySpace()\n");
 }
 void MainWin::onKeyCustom(SDL_Event e){
-    printf("override onKeyCustom() to define other keys' behaviors\n");
+    printf("Undefined, need to override onKeyCustom()\n");
 }

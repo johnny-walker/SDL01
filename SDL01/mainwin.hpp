@@ -10,7 +10,7 @@
 #include <SDL_image.h>
 #include <stdio.h>
 
-//Screen dimension constants
+//window dimension constants
 const int SCREEN_WIDTH  = 640;
 const int SCREEN_HEIGHT = 480;
 
@@ -21,9 +21,9 @@ public:
     
     int nWidth;
     int nHeight;
-    int nBoarder;
-    int viewWidth;
-    int viewHeight;
+    int nBoarder;                       // boarder, can be zero
+    int viewWidth;                      // window width - 2 * boarder width
+    int viewHeight;                     // window height - 2 boarder height
 
     // constructor
     MainWin(int width=SCREEN_WIDTH, int height=SCREEN_HEIGHT);
