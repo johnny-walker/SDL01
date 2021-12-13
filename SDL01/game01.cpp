@@ -38,7 +38,7 @@ void Game01::onRender() {
     dstRect.h = 100;
     player->renderTexture(&dstRect, playerAngle);
     
-    //ToDo, draw player
+    //ToDo, draw others
 }
 
 void Game01::onKeyDown() {
