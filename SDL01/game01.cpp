@@ -4,6 +4,7 @@
 //
 
 #include "game01.hpp"
+#include "mazemap.hpp"
 
 Game01::Game01(int width, int height):
 MainWin(width, height),
@@ -16,7 +17,12 @@ Game01::~Game01() {
 }
 
 void Game01::loadData() {
-    // load player texture
+    //load map
+    MazeMap map = MazeMap();
+    char path[] = "data/map01.csv";
+    map.loadMap(path);
+    
+    //load player texture
     player = new Player(this);
     if (player) {
         char path[] = "data/mouse.png";
