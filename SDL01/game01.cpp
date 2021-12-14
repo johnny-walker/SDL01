@@ -32,8 +32,8 @@ void Game01::loadData() {
 void Game01::onRender() {
     //draw player
     SDL_Rect dstRect;
-    dstRect.x = nBoarder + viewWidth/2  - 50;
-    dstRect.y = nBoarder + viewHeight/2 - 50;
+    dstRect.x = nBorder + viewWidth/2  - 50;
+    dstRect.y = nBorder + viewHeight/2 - 50;
     dstRect.w = 100;
     dstRect.h = 100;
     player->renderTexture(&dstRect, playerAngle);

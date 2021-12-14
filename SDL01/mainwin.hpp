@@ -21,9 +21,9 @@ public:
     
     int nWidth;
     int nHeight;
-    int nBoarder;                       // boarder, can be zero
-    int viewWidth;                      // window width - 2 * boarder width
-    int viewHeight;                     // window height - 2 boarder height
+    int nBorder;                       // border, can be zero
+    int viewWidth;                      // window width  - 2 * border width
+    int viewHeight;                     // window height - 2 * border height
 
     // constructor
     MainWin(int width=SCREEN_WIDTH, int height=SCREEN_HEIGHT);

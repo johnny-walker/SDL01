@@ -11,9 +11,9 @@ mRenderer(NULL),
 bgTexture(NULL){
     nWidth  = width;
     nHeight = height;
-    nBoarder = 2;
-    viewWidth  = width - nBoarder*2;
-    viewHeight = height - nBoarder*2;
+    nBorder = 2;
+    viewWidth  = width - nBorder*2;
+    viewHeight = height - nBorder*2;
     init();
 }
 
@@ -138,10 +138,10 @@ void MainWin::mainLoop(){
 }
 
 void MainWin::drawBGFrame() {
-    //set viewport, reserve space as boarder
+    //set viewport, reserve space as border
     SDL_Rect viewport;
-    viewport.x = nBoarder;
-    viewport.y = nBoarder;
+    viewport.x = nBorder;
+    viewport.y = nBorder;
     viewport.w = viewWidth;
     viewport.h = viewHeight;
     SDL_RenderSetViewport( mRenderer, &viewport );
