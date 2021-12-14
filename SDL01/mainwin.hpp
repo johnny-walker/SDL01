@@ -16,14 +16,14 @@ const int SCREEN_HEIGHT = 480;
 
 class MainWin {
 public:
-    SDL_Window*     mWindow;            //the window we'll be rendering to
-    SDL_Renderer*   mRenderer;          //the window renderer
+    SDL_Window*     mWindow;    //the window we'll be rendering to
+    SDL_Renderer*   mRenderer;  //the window renderer
     
     int nWidth;
     int nHeight;
-    int nBorder;                       // border, can be zero
-    int viewWidth;                      // window width  - 2 * border width
-    int viewHeight;                     // window height - 2 * border height
+    int nBorder;                //border, can be zero
+    int viewWidth;              //window width  - 2 * border width
+    int viewHeight;             //window height - 2 * border height
 
     // constructor
     MainWin(int width=SCREEN_WIDTH, int height=SCREEN_HEIGHT);

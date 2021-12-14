@@ -100,7 +100,7 @@ SDL_Texture* MainWin::loadTexture(char path[]){
 
 bool MainWin::loadBgTexture(char path[]) {
     bgTexture = loadTexture(path);
-    return bgTexture == NULL ? false: true;
+    return bgTexture == NULL ? false : true ;
 }
 
 void MainWin::renderTexture(SDL_Texture* texture, SDL_Rect* dstRect, float angle, SDL_RendererFlip flip) {
