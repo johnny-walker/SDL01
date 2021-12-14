@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include "mainwin.hpp"
+#include "mazemap.hpp"
 #include "player.hpp"
 #include "ghost.hpp"
 
@@ -18,7 +19,7 @@ public:
     
     // destructor
     ~Game01();
-
+    MazeMap* mapMaze;
     Player* player;
     double playerAngle = 0.f;
 

@@ -4,23 +4,29 @@
 //
 
 #include "game01.hpp"
-#include "mazemap.hpp"
 
 Game01::Game01(int width, int height):
 MainWin(width, height),
+mapMaze(NULL),
 player(NULL){
     loadData();
 }
 
 Game01::~Game01() {
+    delete mapMaze;
+    mapMaze = NULL;
+
     delete player;
+    player = NULL;
 }
 
 void Game01::loadData() {
     //load map
-    MazeMap map = MazeMap();
-    char path[] = "data/map01.csv";
-    map.loadMap(path);
+    mapMaze = new MazeMap();
+    if (mapMaze) {
+        char path[] = "data/map01.csv";
+        mapMaze->loadMap(path);
+    }
     
     //load player texture
     player = new Player(this);

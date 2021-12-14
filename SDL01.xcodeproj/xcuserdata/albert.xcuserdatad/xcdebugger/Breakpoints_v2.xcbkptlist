@@ -53,22 +53,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5CD96A1F-4B06-433F-8084-E34C7467E000"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SDL01/game01.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "Game01::Game01(width, height)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "8A670F3D-81AF-4E07-BC00-68318C442DDD"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -101,15 +85,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "60EBB187-D66D-4732-BC6B-19C8124142BD"
-            shouldBeEnabled = "No"
+            uuid = "574BC267-C86A-4C19-ABF9-D9D2331A15FD"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SDL01/game01.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "Game01::~Game01()"
             landmarkType = "7">
          </BreakpointContent>
